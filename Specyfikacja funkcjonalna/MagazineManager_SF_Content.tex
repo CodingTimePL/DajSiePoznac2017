@@ -1,0 +1,50 @@
+\section{Opis ogólny}
+\subsection{Nazwa programu}
+Program będzie nosił nazwę: \textbf{MagazineManager}. Dobór nazwy umotywowany jest przeznaczeniem oprogramowania. 
+
+\subsubsection{Poruszany problem}
+Autor oprogramowania jest czytelnikiem czasopism: ,,Elektronika dla Wszystkich'', ,,Młody technik'' oraz ,,Delta''. Z czasem, kiedy egzemplarzy jest coraz więcej, trudno poszukiwać treści zamieszczonych w poprzednich numerach czasopisma, szczególnie warto wracać do opisanych tam projektów.
+
+Aplikacja ma zarządzać gromadzonymi czasopismami, artykułami w nich zawartymi oraz ułatwić do nich dostęp, poprzez umożliwienie wyszukiwania tekstów, tagowania artykułów, dodawanie do ulubionych. 
+
+\subsection{Użytkownik docelowy}
+Program głównie będzie używany przez autora programu, jednak źródła będą udostępnione i każdy użytkownik -- pasjonata będzie mógł skorzystać z oprogramowania.
+
+\section{Opis funkcjonalności}
+\subsection{Korzystanie z programu}
+Program będzie uruchamiany ze spakowanego pliku o rozszerzeniu \textbf{.jar}. 
+
+\subsection{Możliwości programu}
+Program ma umożliwić realizację następujących funkcjonalności:
+\begin{itemize}
+\item dodawanie zawartości czasopisma do bazy danych współpracującej z aplikacją przez zaimplementowany formularz,
+\item eksportowanie bazy danych do pliku z poziomu aplikacji,
+\item możliwość tagowania artykułów i ich wyszukiwania po tagach
+\item możliwość możliwość kategoryzowania artykułów i wyszukiwanie ich po kategoriach,
+\item oznaczanie artykułów jako ulubione,
+\item generowanie list artykułów do pliku PDF.
+\end{itemize}
+
+\section{Format danych i struktura plików}
+\subsection{Struktura katalogów}
+Program będzie upakowany do pliku uruchamialnego o rozszerzeniu \textbf{.jar}. Zatem nie będzie wymagana żadna charakterystyczna struktura katalogów. Program będzie umożliwiał wybór lokalizacji zapisu i wyboru nazwy plików, które mogą zostać wygenerowane. 
+
+\subsection{Przechowywanie danych}
+Dane potrzebne do działania programu będą pobierane ze współpracującej z aplikacją bazy danych. \textbf{TODO: Przemyśleć rozwiązanie bazy danych i uzupełnić.} 
+
+\subsection{Dane wejściowe i wejściowe}
+W programie nie będzie możliwości wczytywania danych z plików zewnętrznych. 
+
+Dane wyjściowe mogą być zapisywane do:
+\begin{itemize}
+\item plików o rozszerzeniu \textbf{.pdf},
+\item plików eksportowanych z bazy danych o rozszerzeniu \textbf{.csv}.
+\end{itemize}
+
+\section{Testowanie}
+Działanie programu zostanie przetestowane w następujący sposób:
+\begin{itemize}
+\item GUI programu będzie testowane w trakcie tworzenia bezpośrednio przez programistę,
+\item logika aplikacji będzie testowana przez specjalnie przygotowane do tego testy.
+\end{itemize}
+Sama aplikacja zostanie napisana zgodnie z metodyką programowania zwinnego \textbf{Test--Driven Development}, tzn. że na początku zostaną napisane testy funkcjonalności, które mają być dostarczane przez program. 
