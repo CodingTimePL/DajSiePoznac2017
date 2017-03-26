@@ -12,25 +12,30 @@ Program głównie będzie używany przez autora programu, jednak źródła będ�
 
 \section{Opis funkcjonalności}
 \subsection{Korzystanie z programu}
-Program będzie uruchamiany ze spakowanego pliku o rozszerzeniu \textbf{.jar}. 
+Program będzie uruchamiany ze spakowanego pliku o rozszerzeniu \textbf{.jar}. Do poprawnego funkcjonowania programy potrzebny jest również serwer bazy mySQL, np. XAMPP lub WAMP. Jest on odpowiedzialny z obsługę bazy danych.
 
 \subsection{Możliwości programu}
 Program ma umożliwić realizację następujących funkcjonalności:
 \begin{itemize}
-\item dodawanie zawartości czasopisma do bazy danych współpracującej z aplikacją przez zaimplementowany formularz,
+\item CRUD dla dowolnego tytułu czasopisma -- formularz dodawania należy stworzyć tak, aby był on jak najbardziej uniwersalny, co umożliwi na zarządzanie zasobami innych czasopism niż wymienione powyżej,
+\item CRUD zawartości czasopisma,
+\item możliwość tagowania artykułów i ich wyszukiwania po tagach,
+\item możliwość możliwość kategoryzowania artykułów i wyszukiwanie ich po kategoriach (kategorie takie jak kategorie artykułów w czasopismach) - dodawanie, poprzez odpowiedni formularz, kategorii według jakich artykuły w czasopiśmie są poukładane,
+\item oznaczanie artykułów jako ulubione -- umożliwienie użytkownikowi łatwego odszukania interesujących czy potrzebnych mu treści,
 \item eksportowanie bazy danych do pliku z poziomu aplikacji,
-\item możliwość tagowania artykułów i ich wyszukiwania po tagach
-\item możliwość możliwość kategoryzowania artykułów i wyszukiwanie ich po kategoriach,
-\item oznaczanie artykułów jako ulubione,
+\item importowanie bazy danych z pliku o rozszerzeniu .csv,
+\item możliwość wygenerowania z poziomu programu bazy danych potrzebnej do sprawnego działania aplikacji,
+\item modyfikowanie parametrów połączenia z bazą danych,
 \item generowanie list artykułów do pliku PDF.
 \end{itemize}
+CRUD -- od angielskiego create, read, update, delete.
 
 \section{Format danych i struktura plików}
 \subsection{Struktura katalogów}
 Program będzie upakowany do pliku uruchamialnego o rozszerzeniu \textbf{.jar}. Zatem nie będzie wymagana żadna charakterystyczna struktura katalogów. Program będzie umożliwiał wybór lokalizacji zapisu i wyboru nazwy plików, które mogą zostać wygenerowane. 
 
 \subsection{Przechowywanie danych}
-Dane potrzebne do działania programu będą pobierane ze współpracującej z aplikacją bazy danych. \textbf{TODO: Przemyśleć rozwiązanie bazy danych i uzupełnić.} 
+Dane potrzebne do działania programu będą pobierane ze współpracującej z aplikacją bazy danych. Obsługę bazy danych będzie realizował system mySQL rozwijany przez firmę Oracle. Umożliwi to na korzystanie z narzędzi np. XAMPP i WAMP, które zawierają w sobie ten system. Narzędzia te są bardzo popularne i łatwe w obsłudze. Schemat tabel i relacji pomiędzy nimi zostanie utworzony w kolejnych etapach projektowania.
 
 \subsection{Dane wejściowe i wejściowe}
 W programie nie będzie możliwości wczytywania danych z plików zewnętrznych. 
