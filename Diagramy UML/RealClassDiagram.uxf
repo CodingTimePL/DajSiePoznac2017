@@ -4,88 +4,162 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>260</x>
-      <y>190</y>
-      <w>230</w>
-      <h>140</h>
+      <x>60</x>
+      <y>240</y>
+      <w>290</w>
+      <h>150</h>
     </coordinates>
     <panel_attributes>MCategory
 --
-- name:String
-- desc:String
+- name: String
+- desc: String
 --
-+ getName():String
-+ setName(name:String):void
-+ getDesc():String
-+ set(desc:String):void</panel_attributes>
++ MCategory(name:String, desc:String)
++ getName(): String
++ setName(name:String): void
++ getDesc(): String
++ set(desc:String): void</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>620</x>
-      <y>190</y>
-      <w>230</w>
-      <h>140</h>
+      <x>860</x>
+      <y>470</y>
+      <w>300</w>
+      <h>150</h>
     </coordinates>
     <panel_attributes>MMagazine
 --
-- name:String
-- desc:String
+- name: String
+- desc: String
 --
-+ getName():String
-+ setName(name:String):void
-+ getDesc():String
-+ set(desc:String):void</panel_attributes>
++ MMagazine(name:String, desc: String)
++ getName(): String
++ setName(name:String): void
++ getDesc(): String
++ set(desc:String): void</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>920</x>
-      <y>90</y>
-      <w>100</w>
-      <h>110</h>
+      <x>440</x>
+      <y>180</y>
+      <w>360</w>
+      <h>380</h>
     </coordinates>
     <panel_attributes>MArticle
 --
-- magazine:MMagazine
-- copy:MCopy
-- cat:MCategory
-- name:String
-- desc:String
+- copy: MCopy
+- cat: MCategory
+- tags[]: MTag
+- name: String
+- desc: String
 - link: String
---</panel_attributes>
+--
++ MArticle(magazine:MMagazine, cat:MCategory,
+           tags[]:MTag, name:String,
+           desc:String, link:String)
++ getCopy(): MCopy
++ setCopy(copy:MCopy):void
++ getCategory():MCategory
++ setCategory(cat:MCategory):void
++ getTags():[]MTag
++ setTags(tags:[]MTag):void
++ getName():String
++ setName(name:String):void
++ getDesc():String
++ setDesc(desc:String):void
++ getLink():String
++ setLink(link:String):void</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>910</x>
-      <y>270</y>
-      <w>100</w>
-      <h>140</h>
+      <x>860</x>
+      <y>180</y>
+      <w>320</w>
+      <h>260</h>
     </coordinates>
     <panel_attributes>MCopy
 --
-
---</panel_attributes>
+- magazine: MMagazine
+- name: String
+- desc: String
+- date: String
+--
++ MCopy(mag:MMagazine, name:String,
+        desc:String, date:String)
++ getMagazine(): MMagazine
++ setMagazine(mag:MMagazine): void
++ getName():String
++ setName(name:String):void
++ getDesc():String
++ set(desc:String):void
++ getDate():String
++ setDate(date:String):void</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>850</x>
-      <y>430</y>
+      <x>500</x>
+      <y>600</y>
       <w>230</w>
       <h>90</h>
     </coordinates>
     <panel_attributes>MTag
 --
-- name:String
+- name: String
 --
-+ getName():String
-+ setName(name:String):void</panel_attributes>
++ getName(): String
++ setName(name:String): void</panel_attributes>
     <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>990</x>
+      <y>430</y>
+      <w>30</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>10.0;40.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>790</x>
+      <y>320</y>
+      <w>90</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>10.0;20.0;70.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>340</x>
+      <y>290</y>
+      <w>120</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>10.0;20.0;100.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>600</x>
+      <y>550</y>
+      <w>30</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>10.0;50.0;10.0;10.0</additional_attributes>
   </element>
 </diagram>
