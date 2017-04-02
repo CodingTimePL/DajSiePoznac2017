@@ -4,8 +4,8 @@
   <element>
     <id>UMLActor</id>
     <coordinates>
-      <x>250</x>
-      <y>320</y>
+      <x>570</x>
+      <y>710</y>
       <w>100</w>
       <h>110</h>
     </coordinates>
@@ -16,7 +16,7 @@
     <id>UMLUseCase</id>
     <coordinates>
       <x>170</x>
-      <y>200</y>
+      <y>600</y>
       <w>250</w>
       <h>60</h>
     </coordinates>
@@ -26,8 +26,8 @@
   <element>
     <id>UMLUseCase</id>
     <coordinates>
-      <x>430</x>
-      <y>240</y>
+      <x>760</x>
+      <y>600</y>
       <w>290</w>
       <h>60</h>
     </coordinates>
@@ -38,8 +38,8 @@ wybranego czasopisma</panel_attributes>
   <element>
     <id>UMLUseCase</id>
     <coordinates>
-      <x>420</x>
-      <y>120</y>
+      <x>180</x>
+      <y>490</y>
       <w>220</w>
       <h>60</h>
     </coordinates>
@@ -50,63 +50,63 @@ czasopisma</panel_attributes>
   <element>
     <id>UMLUseCase</id>
     <coordinates>
-      <x>750</x>
-      <y>460</y>
-      <w>120</w>
+      <x>1100</x>
+      <y>520</y>
+      <w>150</w>
       <h>60</h>
     </coordinates>
-    <panel_attributes>Use case 1</panel_attributes>
+    <panel_attributes>Usuń egzemplarz</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLUseCase</id>
     <coordinates>
-      <x>750</x>
-      <y>330</y>
-      <w>120</w>
-      <h>80</h>
-    </coordinates>
-    <panel_attributes>Use case 1</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>UMLUseCase</id>
-    <coordinates>
-      <x>930</x>
-      <y>220</y>
-      <w>120</w>
+      <x>630</x>
+      <y>520</y>
+      <w>150</w>
       <h>60</h>
     </coordinates>
-    <panel_attributes>Use case 1</panel_attributes>
+    <panel_attributes>Dodaj egzemplarz</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLUseCase</id>
     <coordinates>
-      <x>970</x>
-      <y>320</y>
-      <w>120</w>
-      <h>80</h>
-    </coordinates>
-    <panel_attributes>Use case 1</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>UMLUseCase</id>
-    <coordinates>
-      <x>980</x>
-      <y>90</y>
-      <w>120</w>
+      <x>860</x>
+      <y>860</y>
+      <w>240</w>
       <h>60</h>
     </coordinates>
-    <panel_attributes>Use case 1</panel_attributes>
+    <panel_attributes>Importowanie bazy danych</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLUseCase</id>
     <coordinates>
-      <x>20</x>
-      <y>120</y>
+      <x>820</x>
+      <y>380</y>
+      <w>160</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>Edytuj egzemplarz</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLUseCase</id>
+    <coordinates>
+      <x>170</x>
+      <y>860</y>
+      <w>200</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>Wyszukiwanie czasopism</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLUseCase</id>
+    <coordinates>
+      <x>0</x>
+      <y>520</y>
       <w>160</w>
       <h>60</h>
     </coordinates>
@@ -116,67 +116,265 @@ czasopisma</panel_attributes>
   <element>
     <id>UMLUseCase</id>
     <coordinates>
-      <x>1030</x>
-      <y>420</y>
-      <w>120</w>
+      <x>140</x>
+      <y>970</y>
+      <w>250</w>
       <h>60</h>
     </coordinates>
-    <panel_attributes>Use case 1</panel_attributes>
+    <panel_attributes>Eksportowanie wyników
+wyszukiwania do pliku PDF</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>960</x>
-      <y>460</y>
-      <w>90</w>
+      <x>280</x>
+      <y>550</y>
+      <w>30</w>
       <h>60</h>
     </coordinates>
     <panel_attributes/>
-    <additional_attributes>10.0;10.0;70.0;40.0</additional_attributes>
+    <additional_attributes>10.0;10.0;10.0;40.0</additional_attributes>
   </element>
   <element>
     <id>UMLUseCase</id>
     <coordinates>
-      <x>820</x>
-      <y>120</y>
-      <w>120</w>
-      <h>60</h>
+      <x>810</x>
+      <y>480</y>
+      <w>180</w>
+      <h>70</h>
     </coordinates>
-    <panel_attributes>Use case 1</panel_attributes>
+    <panel_attributes>Wyświetlanie danych
+egzemplarza</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLUseCase</id>
     <coordinates>
-      <x>1020</x>
+      <x>510</x>
+      <y>860</y>
+      <w>230</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>Eksportowanie bazy danych</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLUseCase</id>
+    <coordinates>
+      <x>460</x>
       <y>520</y>
-      <w>120</w>
+      <w>150</w>
       <h>60</h>
     </coordinates>
-    <panel_attributes>Use case 1</panel_attributes>
+    <panel_attributes>Usuń czasopismo</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLUseCase</id>
     <coordinates>
-      <x>600</x>
-      <y>520</y>
-      <w>120</w>
-      <h>60</h>
-    </coordinates>
-    <panel_attributes>Use case 1</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>UMLUseCase</id>
-    <coordinates>
-      <x>220</x>
-      <y>110</y>
+      <x>210</x>
+      <y>390</y>
       <w>160</w>
       <h>60</h>
     </coordinates>
     <panel_attributes>Edytuj czasopismo</panel_attributes>
     <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>80</x>
+      <y>580</y>
+      <w>90</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>lt=.
+&lt;&lt;invoke&gt;&gt;</panel_attributes>
+    <additional_attributes>10.0;10.0;70.0;40.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>280</x>
+      <y>450</y>
+      <w>90</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>lt=.
+&lt;&lt;invoke&gt;&gt;</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;30.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>430</x>
+      <y>580</y>
+      <w>90</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>lt=.
+&lt;&lt;invoke&gt;&gt;</panel_attributes>
+    <additional_attributes>70.0;10.0;10.0;30.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>890</x>
+      <y>550</y>
+      <w>30</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>10.0;10.0;10.0;40.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1050</x>
+      <y>580</y>
+      <w>90</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>lt=.
+&lt;&lt;invoke&gt;&gt;</panel_attributes>
+    <additional_attributes>70.0;10.0;10.0;30.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>690</x>
+      <y>580</y>
+      <w>90</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>lt=.
+&lt;&lt;invoke&gt;&gt;</panel_attributes>
+    <additional_attributes>10.0;10.0;70.0;30.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>890</x>
+      <y>430</y>
+      <w>90</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>lt=.
+&lt;&lt;invoke&gt;&gt;</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;40.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>670</x>
+      <y>660</y>
+      <w>250</w>
+      <h>100</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>230.0;10.0;10.0;80.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>280</x>
+      <y>660</y>
+      <w>310</w>
+      <h>100</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>10.0;10.0;290.0;80.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>260</x>
+      <y>920</y>
+      <w>90</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>lt=.
+&lt;&lt;invoke&gt;&gt;</panel_attributes>
+    <additional_attributes>10.0;40.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>260</x>
+      <y>790</y>
+      <w>310</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>10.0;60.0;290.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>610</x>
+      <y>810</y>
+      <w>30</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>10.0;40.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>680</x>
+      <y>790</y>
+      <w>320</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>300.0;60.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLUseCase</id>
+    <coordinates>
+      <x>700</x>
+      <y>1020</y>
+      <w>240</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>Oznaczanie artykułów
+jako ulubione</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLUseCase</id>
+    <coordinates>
+      <x>1130</x>
+      <y>360</y>
+      <w>240</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>Wyświetlanie listy artykułów
+egzemplarza czasopisma</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>970</x>
+      <y>440</y>
+      <w>260</w>
+      <h>160</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>240.0;10.0;10.0;140.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1560</x>
+      <y>280</y>
+      <w>130</w>
+      <h>180</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>110.0;10.0;10.0;160.0</additional_attributes>
   </element>
 </diagram>
