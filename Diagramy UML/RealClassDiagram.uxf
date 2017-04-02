@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.2">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>260</x>
+      <y>190</y>
+      <w>230</w>
+      <h>140</h>
+    </coordinates>
+    <panel_attributes>MCategory
+--
+- name:String
+- desc:String
+--
++ getName():String
++ setName(name:String):void
++ getDesc():String
++ set(desc:String):void</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>620</x>
+      <y>190</y>
+      <w>230</w>
+      <h>140</h>
+    </coordinates>
+    <panel_attributes>MMagazine
+--
+- name:String
+- desc:String
+--
++ getName():String
++ setName(name:String):void
++ getDesc():String
++ set(desc:String):void</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>920</x>
+      <y>90</y>
+      <w>100</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>MArticle
+--
+- magazine:MMagazine
+- copy:MCopy
+- cat:MCategory
+- name:String
+- desc:String
+- link: String
+--</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>910</x>
+      <y>270</y>
+      <w>100</w>
+      <h>140</h>
+    </coordinates>
+    <panel_attributes>MCopy
+--
+
+--</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>850</x>
+      <y>430</y>
+      <w>230</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>MTag
+--
+- name:String
+--
++ getName():String
++ setName(name:String):void</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>
