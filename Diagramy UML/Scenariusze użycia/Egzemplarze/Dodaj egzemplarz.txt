@@ -1,0 +1,17 @@
+Pre: System wyświetla listę egzemplarzy
+
+1. Użytkownik naciska przycisk Dodaj egzemplarz.
+2. System wyświetla formularz dodania egzemplarz.
+3. Użytkownik wypełnia formularz.
+4. Użytkownik naciska przycisk Dodaj.
+5. System pobiera dane z formularza.
+6. System waliduje dane.
+7. System zapisuje dane w bazie.
+8. System wyświetla komunikat o poprawnym dodaniu egzemplarza.
+
+Alternatywnie:
+4a. Użytkownik naciska przycisk Anuluj.
+
+7a. System wyświetla komunikat o niepoprawnych danych.
+
+8a. System wyświetla komunikat o błędzie podczas zapisu danych.

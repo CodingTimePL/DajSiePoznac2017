@@ -1,0 +1,17 @@
+Pre: System wyświetla dane egzemplarza.
+
+1. Użytkownik naciska przycisk Edytuj.
+2. System wyświetla formularz edycji egzemplarza z uzupełnionymi aktualnymi danymi.
+3. Użytkownik edytuje dane.
+4. Użytkownik naciska przycisk Zapisz.
+5. System pobiera dane z formularza.
+6. System waliduje dane.
+7. System aktualizuje dane w bazie.
+8. System wyświetla komunikat o poprawnej aktualizacji danych.
+
+Alternatywnie:
+3a. Użytkownik naciska przycisk Anuluj
+
+7a. System wyświetla komunikat o niepoprawnych danych.
+
+8a. System wyświetla komunikat o nieudanej aktualizacji danych.

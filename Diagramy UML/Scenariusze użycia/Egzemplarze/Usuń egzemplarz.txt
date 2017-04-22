@@ -1,0 +1,13 @@
+Pre: System wyświetla listę egzemplarzy.
+
+1. Użytkownik naciska przycisk Usuń.
+2. System wyświetla formularz z pytaniem potwierdzającym.
+3. Użytkownik naciska przycisk Tak.
+4. System usuwa czasopismo z bazy danych.
+5. System wyświetla komunikat o usunięciu egzemplarza.
+
+Alternatywnie:
+
+3a. Użytkownik naciska przycisk Nie.
+
+5a. System wyświetla komunikat o błędzie podczas usuwania egzemplarza.
