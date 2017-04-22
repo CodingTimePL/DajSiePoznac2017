@@ -1,0 +1,18 @@
+Pre: Istnieje baza danych
+1. Użytkownik naciska przycisk Eksportuj bazę danych.
+2. System wyświetla okno dialogowe lokalizacji pliku.
+3. Użytkownik wybiera miejsce zapisu pliku.
+4. Użytkownik wprowadza nazwę pliku
+5. Użytkownik naciska przycisk Zapisz.
+6. System zamyka okno dialogowe.
+7. System generuje plik bazy danych.
+8. System zapisuje plik pod wskazanym miejscem i nazwą.
+9. System wyświetla komunikat o poprawnym zapisie pliku.
+
+Alternatywnie:
+3a. Użytkownik naciska przycisk Anuluj.
+4a. System zamyka okno dialogowe.
+
+9a. System wyświetla komunikat o niepowodzeniu zapisu.
+
+
