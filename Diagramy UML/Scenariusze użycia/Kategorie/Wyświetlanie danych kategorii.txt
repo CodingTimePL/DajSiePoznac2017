@@ -1,0 +1,5 @@
+Pre: System wyświetla listę kategorii
+
+1. Użytkownik naciska przycisk Zobacz szczegóły.
+2. System pobiera dane z bazy o kategorii.
+3. System wyświetla formularz danych kategorii.
