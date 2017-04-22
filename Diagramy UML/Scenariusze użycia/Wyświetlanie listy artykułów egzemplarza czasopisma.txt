@@ -1,0 +1,3 @@
+1. Użytkownik naciska przycisk Zobacz artykuły.
+2. System pobiera listę artykułów egzemplarza.
+3. System wyświetla formularz z listą artykułów egzemplarza.

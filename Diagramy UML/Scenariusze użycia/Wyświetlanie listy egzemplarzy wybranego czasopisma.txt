@@ -1,0 +1,3 @@
+1. Użytkownik naciska przycisk Zobacz egzeplarze.
+2. System pobiera listę egzemplarzy czasopisma.
+3. System wyświetla formularz z listą egzemplarzy czasopisma.
