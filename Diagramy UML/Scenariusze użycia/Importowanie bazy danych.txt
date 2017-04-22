@@ -1,0 +1,10 @@
+1. Użytkownik naciska przycisk Importuj bazę danych.
+2. System wyświetla okno dialogowe lokalizacji pliku.
+3. Użytkownik wybiera plik bazy danych.
+4. Użytkownik naciska przycisk Importuj.
+5. System odczytuje plik. 
+6. System zapisuje dane do bazy.
+7. System wyświetla komunikat o poprawnym imporcie bazy danych.
+
+Alternatywnie:
+6a. System wyświetla komunikat o niepoprawnym pliku bazy danych.

@@ -14,5 +14,3 @@ Alternatywnie:
 4a. System zamyka okno dialogowe.
 
 9a. System wyświetla komunikat o niepowodzeniu zapisu.
-
-
