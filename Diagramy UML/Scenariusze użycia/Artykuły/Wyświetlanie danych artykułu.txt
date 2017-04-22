@@ -1,0 +1,5 @@
+Pre: System wyświetla listę artykułów
+
+1. Użytkownik naciska przycisk Zobacz szczegóły.
+2. System pobiera dane z bazy o artykułu.
+3. System wyświetla formularz danych artykułu.
