@@ -1,0 +1,10 @@
+1. Użytkownik naciska przycisk Wyszukaj czasopisma.
+2. System wyświetla formularz wyszukiwania.
+3. Użytkownik wypełnia formularz.
+4. Użytkownik naciska przycisk szukaj.
+5. System pobiera dane z formularza.
+6. System wyszukuje egzemlarze w systemie.
+7. System wyświetla formularz z listą wyszukanych czasopism.
+
+Alternatywnie:
+7a. System wyświetla komunikat o braku czasopism spełniających kryteria wyszukiwania.
