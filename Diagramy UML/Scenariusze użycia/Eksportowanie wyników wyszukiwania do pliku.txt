@@ -1,0 +1,14 @@
+Pre: System musi wyświetlać formularz listy wyników wyszukiwania
+1. Użytkownik naciska przycisk Eksportuj.
+2. System wyświetla okno dialogowe lokalizacji pliku.
+3. Użytkownik wybiera lokalizację pliku.
+4. Użytkownik wprowadza nazwę pliku.
+5. Użytkownik naciska przycisk Zapisz.
+6. System generuje plik PDF.
+7. System zapisuje plik.
+8. System wyświetla komunikat o poprawnym utworzeniu pliku.
+
+Alternatywnie:
+3a. Użytkownik naciska przycisk Anuluj.
+
+8a. System wyświetla komunikat o błędzie przy tworzeniu pliku.
